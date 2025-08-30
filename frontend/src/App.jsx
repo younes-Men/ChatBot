@@ -53,7 +53,7 @@ import { ChatProvider } from "./context/ChatContext"
 import { MessageProvider } from "./context/MessageContext"
 import PrivateRoute from "./Components/PrivateRoute"
 
-import Home from "./Pages/Home"
+import Home from "./pages/Home"
 import ChatInterface from "./pages/interface_chat"
 import VoiceChat from "./pages/voice-chat" // Import the new VoiceChat component
 import SignUp from "./Components/SignUp"
