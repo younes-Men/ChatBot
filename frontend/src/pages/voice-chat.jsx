@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { useNavigate } from "react-router-dom"
 import { useChat } from "../context/ChatContext"
 import { useMessage } from "../context/MessageContext"
-import { Sidebar } from "../components/sidebar"
+import { Sidebar } from "../Components/Sidebar"
 import { MessageCircle, Mic, MicOff, ArrowLeft, Volume2, VolumeX, Menu, Globe, Sparkles } from "lucide-react"
 
 export default function VoiceChat() {
